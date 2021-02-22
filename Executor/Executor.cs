@@ -48,7 +48,7 @@ namespace Executor
             Console.WriteLine();
             var currentConsoleColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine($"Spread code - Min code = = {spreadOutTime - minCodeTime}");
+            Console.WriteLine($"{((spreadOutTime>minCodeTime)? "Min code was faster":"Spread code was faster")} by {((spreadOutTime>minCodeTime)? spreadOutTime-minCodeTime : minCodeTime-spreadOutTime)}");
             Console.ForegroundColor = currentConsoleColor;
             Console.WriteLine();
             Console.WriteLine();
@@ -81,7 +81,7 @@ namespace Executor
             Console.WriteLine();
             var currentConsoleColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine($"Spread code - Min code = = {spreadOutTime - minCodeTime}");
+            Console.WriteLine($"{((spreadOutTime > minCodeTime) ? "Min code was faster" : "Spread code was faster")} by {((spreadOutTime > minCodeTime) ? spreadOutTime - minCodeTime : minCodeTime - spreadOutTime)}");
             Console.ForegroundColor = currentConsoleColor;
             Console.WriteLine();
             Console.WriteLine();
@@ -111,7 +111,7 @@ namespace Executor
             Console.WriteLine();
             var currentConsoleColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine($"Spread code - Min code = {spreadOutTime - minCodeTime}");
+            Console.WriteLine($"{((spreadOutTime > minCodeTime) ? "Min code was faster" : "Spread code was faster")} by {((spreadOutTime > minCodeTime) ? spreadOutTime - minCodeTime : minCodeTime - spreadOutTime)}");
             Console.ForegroundColor = currentConsoleColor;
             Console.WriteLine();
             Console.WriteLine();
@@ -142,7 +142,7 @@ namespace Executor
             Console.WriteLine();
             var currentConsoleColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine($"Spread code - Min code = = {spreadOutTime - minCodeTime}");
+            Console.WriteLine($"{((spreadOutTime > minCodeTime) ? "Min code was faster" : "Spread code was faster")} by {((spreadOutTime > minCodeTime) ? spreadOutTime - minCodeTime : minCodeTime - spreadOutTime)}");
             Console.ForegroundColor = currentConsoleColor;
             Console.WriteLine();
             Console.WriteLine();
